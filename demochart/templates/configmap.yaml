@@ -1,0 +1,5 @@
+{{- include "demolibchart.configmap" (list . "demochart.configmap") -}}
+{{- define "demochart.configmap" -}}
+data:
+  myvalue: "Hello World"
+{{- end -}}
